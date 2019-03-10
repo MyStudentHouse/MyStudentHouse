@@ -1,0 +1,108 @@
+\hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller}{}\section{House\+Controller Class Reference}
+\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller}\index{HouseController@{HouseController}}
+Inheritance diagram for House\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_a9ef485163104597c12185b53cdacf638}{store}} (Request \$request)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_a755a44e4534f0223d8efff42766142e5}{assign\+User}} (Request \$request)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_a69fe13db80c7527ef2b9f5560a3cc6aa}{delete\+User}} (Request \$request)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_a4fde01aada3b602338d7002a598a8763}\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_a4fde01aada3b602338d7002a598a8763}} 
+{\bfseries \$success\+Status} = 200
+\item 
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_afce2b73a3afe33067c4398805a121d3c}\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_afce2b73a3afe33067c4398805a121d3c}} 
+{\bfseries \$invalid\+Status} = 412
+\item 
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_ab7d5fb8f13267c859829854b90c6f50d}\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_ab7d5fb8f13267c859829854b90c6f50d}} 
+{\bfseries \$unauthorised\+Status} = 401
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_a755a44e4534f0223d8efff42766142e5}\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_a755a44e4534f0223d8efff42766142e5}} 
+\index{HouseController@{HouseController}!assignUser@{assignUser}}
+\index{assignUser@{assignUser}!HouseController@{HouseController}}
+\subsubsection{\texorpdfstring{assignUser()}{assignUser()}}
+{\footnotesize\ttfamily assign\+User (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+\begin{DoxyParagraph}{A\+PI\textbackslash{}\+House\+Controller@assign\+User (P\+O\+ST)}
+Assign a user to an already existing house.
+\end{DoxyParagraph}
+
+\begin{DoxyParams}{Parameters}
+{\em house\+\_\+id} & \mbox{\hyperlink{class_app_1_1_house}{House}} ID to add the user to (required). \\
+\hline
+{\em user\+\_\+id} & ID of the user to add to the corresponding house (required). \\
+\hline
+{\em role} & Role of the user to add (required, between 1 and 9).\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em J\+S\+ON} & Error 412 \\
+\hline
+{\em J\+S\+ON} & Success 200 \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_a69fe13db80c7527ef2b9f5560a3cc6aa}\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_a69fe13db80c7527ef2b9f5560a3cc6aa}} 
+\index{HouseController@{HouseController}!deleteUser@{deleteUser}}
+\index{deleteUser@{deleteUser}!HouseController@{HouseController}}
+\subsubsection{\texorpdfstring{deleteUser()}{deleteUser()}}
+{\footnotesize\ttfamily delete\+User (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+\begin{DoxyParagraph}{A\+PI\textbackslash{}\+House\+Controller@delete\+User (P\+O\+ST)}
+Delete a user from a house.
+\end{DoxyParagraph}
+
+\begin{DoxyParams}{Parameters}
+{\em house\+\_\+id} & \mbox{\hyperlink{class_app_1_1_house}{House}} ID to delete the user from (required). \\
+\hline
+{\em user\+\_\+id} & ID of the user to delete from the corresponding house (required).\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em J\+S\+ON} & Error 412 \\
+\hline
+{\em J\+S\+ON} & Success 200 \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_a9ef485163104597c12185b53cdacf638}\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller_a9ef485163104597c12185b53cdacf638}} 
+\index{HouseController@{HouseController}!store@{store}}
+\index{store@{store}!HouseController@{HouseController}}
+\subsubsection{\texorpdfstring{store()}{store()}}
+{\footnotesize\ttfamily store (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+\begin{DoxyParagraph}{A\+PI\textbackslash{}\+House\+Controller@store (P\+O\+ST)}
+Create a new house with the given parameters.
+\end{DoxyParagraph}
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the house to create (required). \\
+\hline
+{\em description} & The description of the house to create (required).\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em J\+S\+ON} & Error 412 \\
+\hline
+{\em J\+S\+ON} & Success 200 \\
+\hline
+\end{DoxyRetVals}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+app/\+Http/\+Controllers/\+Api/\mbox{\hyperlink{_house_controller_8php}{House\+Controller.\+php}}\end{DoxyCompactItemize}

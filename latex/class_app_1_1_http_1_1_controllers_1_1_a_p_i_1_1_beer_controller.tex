@@ -1,0 +1,77 @@
+\hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller}{}\section{Beer\+Controller Class Reference}
+\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller}\index{BeerController@{BeerController}}
+Inheritance diagram for Beer\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_a5ab3bd1c209b4353ac32bd7ee51985d2}{show}} (Request \$request)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_a9ef485163104597c12185b53cdacf638}{store}} (Request \$request)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_a4fde01aada3b602338d7002a598a8763}\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_a4fde01aada3b602338d7002a598a8763}} 
+{\bfseries \$success\+Status} = 200
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_a5ab3bd1c209b4353ac32bd7ee51985d2}\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_a5ab3bd1c209b4353ac32bd7ee51985d2}} 
+\index{BeerController@{BeerController}!show@{show}}
+\index{show@{show}!BeerController@{BeerController}}
+\subsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily show (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+\begin{DoxyParagraph}{A\+PI\textbackslash{}\+Beer\+Controller@show (P\+O\+ST)}
+Gets all the beers in the database for a certain house.
+\end{DoxyParagraph}
+
+\begin{DoxyParams}{Parameters}
+{\em house\+\_\+id} & Which house to retrieve the beers for.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em J\+S\+ON} & Error 401 \\
+\hline
+{\em J\+S\+ON} & Success 200 \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_a9ef485163104597c12185b53cdacf638}\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_a9ef485163104597c12185b53cdacf638}} 
+\index{BeerController@{BeerController}!store@{store}}
+\index{store@{store}!BeerController@{BeerController}}
+\subsubsection{\texorpdfstring{store()}{store()}}
+{\footnotesize\ttfamily store (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+\begin{DoxyParagraph}{A\+PI\textbackslash{}\+Beer\+Controller@store (P\+O\+ST)}
+Subtract a beer, add a crate or return a crate using this A\+PI call. Mentioned parameters are values to post using a P\+O\+ST method.
+\end{DoxyParagraph}
+
+\begin{DoxyParams}{Parameters}
+{\em user\+\_\+id} & The user ID to perform the action to. \\
+\hline
+{\em action} & The action to perform\+: \char`\"{}substract\+Beer\char`\"{}, \char`\"{}add\+Crate\char`\"{} or \char`\"{}return\+Crate\char`\"{}. \\
+\hline
+{\em amount} & The amount of beers/crates.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em J\+S\+ON} & Error 401 \\
+\hline
+{\em J\+S\+ON} & Error 403 \\
+\hline
+{\em J\+S\+ON} & Success 200 \\
+\hline
+\end{DoxyRetVals}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+app/\+Http/\+Controllers/\+Api/\mbox{\hyperlink{_beer_controller_8php}{Beer\+Controller.\+php}}\end{DoxyCompactItemize}
