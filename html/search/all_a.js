@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['map',['map',['../class_app_1_1_providers_1_1_route_service_provider.html#a7f35c814c022f4191d359b5dc139d35b',1,'App::Providers::RouteServiceProvider']]],
-  ['mapapiroutes',['mapApiRoutes',['../class_app_1_1_providers_1_1_route_service_provider.html#ad400e7ca0cea76b9680eeb68b55ea0e0',1,'App::Providers::RouteServiceProvider']]],
-  ['mapwebroutes',['mapWebRoutes',['../class_app_1_1_providers_1_1_route_service_provider.html#ac887962db9a9a8f344572bd205a02165',1,'App::Providers::RouteServiceProvider']]]
+  ['updatecontainerturns',['updateContainerTurns',['../class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_container_controller.html#a4e7f78121af37bfccc0b0274e280d37e',1,'App::Http::Controllers::API::ContainerController']]],
+  ['updatedetails',['updateDetails',['../class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_user_controller.html#af791ef7277ca1b94381e076ee88ab552',1,'App::Http::Controllers::API::UserController']]],
+  ['userbelongsto',['userBelongsTo',['../class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller.html#afe29028f90f104632e42e82a462983d2',1,'App::Http::Controllers::API::HouseController']]],
+  ['userbelongstohouse',['userBelongsToHouse',['../class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller.html#a1670966539eb987735afdd185d916059',1,'App::Http::Controllers::API::HouseController']]],
+  ['usercontroller',['UserController',['../class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_user_controller.html',1,'App::Http::Controllers::API']]],
+  ['usercontroller_2ephp',['UserController.php',['../_user_controller_8php.html',1,'']]]
 ];

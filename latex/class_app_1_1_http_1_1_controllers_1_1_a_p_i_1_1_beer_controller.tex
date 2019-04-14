@@ -3,13 +3,13 @@
 Inheritance diagram for Beer\+Controller\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[height=3.000000cm]{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller}
+\includegraphics[height=2.000000cm]{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller}
 \end{center}
 \end{figure}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_a5ab3bd1c209b4353ac32bd7ee51985d2}{show}} (Request \$request)
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_ac20790a51d9718bb438c19b75e2eee04}{show}} (\$house\+\_\+id)
 \item 
 \mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_a9ef485163104597c12185b53cdacf638}{store}} (Request \$request)
 \end{DoxyCompactItemize}
@@ -22,14 +22,14 @@ Inheritance diagram for Beer\+Controller\+:\begin{figure}[H]
 
 
 \subsection{Member Function Documentation}
-\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_a5ab3bd1c209b4353ac32bd7ee51985d2}\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_a5ab3bd1c209b4353ac32bd7ee51985d2}} 
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_ac20790a51d9718bb438c19b75e2eee04}\label{class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_beer_controller_ac20790a51d9718bb438c19b75e2eee04}} 
 \index{BeerController@{BeerController}!show@{show}}
 \index{show@{show}!BeerController@{BeerController}}
 \subsubsection{\texorpdfstring{show()}{show()}}
-{\footnotesize\ttfamily show (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily show (\begin{DoxyParamCaption}\item[{}]{\$house\+\_\+id }\end{DoxyParamCaption})}
 
-\begin{DoxyParagraph}{A\+PI\textbackslash{}\+Beer\+Controller@show (P\+O\+ST)}
-Gets all the beers in the database for a certain house.
+\begin{DoxyParagraph}{A\+PI\textbackslash{}\+Beer\+Controller@show (G\+ET)}
+Get all the beers from the database for a certain house.
 \end{DoxyParagraph}
 
 \begin{DoxyParams}{Parameters}
@@ -56,6 +56,8 @@ Subtract a beer, add a crate or return a crate using this A\+PI call. Mentioned 
 \begin{DoxyParams}{Parameters}
 {\em user\+\_\+id} & The user ID to perform the action to. \\
 \hline
+{\em house\+\_\+id} & The house ID to perform the action to (of which the user also belongs to). \\
+\hline
 {\em action} & The action to perform\+: \char`\"{}substract\+Beer\char`\"{}, \char`\"{}add\+Crate\char`\"{} or \char`\"{}return\+Crate\char`\"{}. \\
 \hline
 {\em amount} & The amount of beers/crates.\\
@@ -74,4 +76,4 @@ Subtract a beer, add a crate or return a crate using this A\+PI call. Mentioned 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-app/\+Http/\+Controllers/\+Api/\mbox{\hyperlink{_beer_controller_8php}{Beer\+Controller.\+php}}\end{DoxyCompactItemize}
+/\+Users/patrick/\+Documents/\+Work/\+Projects/\+My\+Student\+House/backend/app/\+Http/\+Controllers/\+Api/\mbox{\hyperlink{_beer_controller_8php}{Beer\+Controller.\+php}}\end{DoxyCompactItemize}

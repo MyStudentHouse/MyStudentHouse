@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['boot',['boot',['../class_app_1_1_providers_1_1_app_service_provider.html#a8814ea4b5beba763c570b4818980814e',1,'App\Providers\AppServiceProvider\boot()'],['../class_app_1_1_providers_1_1_auth_service_provider.html#a8814ea4b5beba763c570b4818980814e',1,'App\Providers\AuthServiceProvider\boot()'],['../class_app_1_1_providers_1_1_broadcast_service_provider.html#a8814ea4b5beba763c570b4818980814e',1,'App\Providers\BroadcastServiceProvider\boot()'],['../class_app_1_1_providers_1_1_event_service_provider.html#a8814ea4b5beba763c570b4818980814e',1,'App\Providers\EventServiceProvider\boot()'],['../class_app_1_1_providers_1_1_route_service_provider.html#a8814ea4b5beba763c570b4818980814e',1,'App\Providers\RouteServiceProvider\boot()']]]
+  ['index',['index',['../class_app_1_1_http_1_1_controllers_1_1_a_p_i_1_1_house_controller.html#a149eb92716c1084a935e04a8d95f7347',1,'App\Http\Controllers\API\HouseController\index()'],['../class_app_1_1_http_1_1_controllers_1_1_api_1_1_task_controller.html#a03e28cc4ace81818bfa12c56ea253809',1,'App\Http\Controllers\Api\TaskController\index()']]]
 ];
